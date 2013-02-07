@@ -1,10 +1,14 @@
-# Requirements
+# WS2-SWS-FIDDLES-SILEX - 06 - Doctrine
+
+Introduces the built-in [DoctrineServiceProvider](http://silex.sensiolabs.org/doc/providers/doctrine.html), allowing one to use [Doctrine's DBAL](http://www.doctrine-project.org/projects/dbal) within a Silex app.
+
+## Requirements
 
 - [Composer](http://getcomposer.org/)
 - PHP 5.4
 - SQLite
 
-# Installation
+## Installation
 
 - Get the source and install the dependencies
 
@@ -16,14 +20,14 @@
 
 		$ sqlite3 app.db < resources/schema.sql
 
-# Running the project
+## Running the project
 
-Using PHP 5.4
+### Using PHP 5.4
 
 - Open a shell, navigate to the project root and run `php -S localhost:8080 -t web web/index.php` to start a PHP web server
 - Open `http://localhost:8080/` in your browser
 
-Using your favorite webserver
+### Using your favorite webserver
 
 - Create a virtualhost pointing to the web folder
 - Make sure you've enabled rewriting

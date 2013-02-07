@@ -1,9 +1,13 @@
-# Requirements
+# WS2-SWS-FIDDLES-SILEX - 01 - Hello
+
+The infamous `Hello world` showcasing the basic Silex app structure, [dynamic routing](http://silex.sensiolabs.org/doc/usage.html#dynamic-routing), [redirects](http://silex.sensiolabs.org/doc/usage.html#redirects), and [error handlers](http://silex.sensiolabs.org/doc/usage.html#error-handlers).
+
+## Requirements
 
 - [Composer](http://getcomposer.org/)
 - PHP 5.4
 
-# Installation
+## Installation
 
 - Get the source and install the dependencies
 
@@ -11,14 +15,14 @@
 		$ cd ws2-sws-fiddles-silex/01.hello
 		$ composer install
 
-# Running the project
+## Running the project
 
-Using PHP 5.4
+### Using PHP 5.4
 
 - Open a shell, navigate to the project root and run `php -S localhost:8080 -t web web/index.php` to start a PHP web server
 - Open `http://localhost:8080/` in your browser
 
-Using your favorite webserver
+### Using your favorite webserver
 
 - Create a virtualhost pointing to the web folder
 - Make sure you've enabled rewriting
