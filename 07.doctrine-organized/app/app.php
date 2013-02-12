@@ -5,7 +5,6 @@ require __DIR__ . DIRECTORY_SEPARATOR . 'bootstrap.php';
 
 // Dummy Data
 require __DIR__ . DIRECTORY_SEPARATOR . 'data.php';
-/*
 $app->error(function (\Exception $e, $code) use ($app) {
 	if ($code == 404) {
 		return $app['twig']->render('errors/404.twig', array('error' => $e->getMessage()));
@@ -13,7 +12,6 @@ $app->error(function (\Exception $e, $code) use ($app) {
 		return 'Shenanigans! Something went horribly wrong // ' . $e->getMessage();
 	}
 });
-*/
 // Mount our controllers
 $app->mount('/users', new Ikdoeict\Provider\Controller\UsersController());
 $app->mount('/links', new Ikdoeict\Provider\Controller\LinksController());
