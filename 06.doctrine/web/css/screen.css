@@ -70,7 +70,9 @@
 		}
 
 		p.breadcrumb {
+			margin-top: 0.7em;
 			font-style: italic;
+			font-size: 0.8em;
 		}
 
 		.users li, .links li {
