@@ -15,4 +15,4 @@ $app->error(function (\Exception $e, $code) use ($app) {
 // Mount our controllers
 $app->mount('/users', new Ikdoeict\Provider\Controller\UsersController());
 $app->mount('/links', new Ikdoeict\Provider\Controller\LinksController());
-$app->mount('/', new Ikdoeict\Provider\Controller\IndexController());
+$app->mount('/', new Ikdoeict\Provider\Controller\HomeController());
