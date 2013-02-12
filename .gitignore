@@ -3,3 +3,4 @@ vendor
 composer.lock
 *.psd
 app.db
+app.log
