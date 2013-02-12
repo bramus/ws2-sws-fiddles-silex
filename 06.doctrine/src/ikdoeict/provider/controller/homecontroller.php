@@ -6,16 +6,16 @@ use Silex\Application;
 use Silex\ControllerProviderInterface;
 use Silex\ControllerCollection;
 
-class IndexController implements ControllerProviderInterface {
+class HomeController implements ControllerProviderInterface {
 
 	public function connect(Application $app) {
 		$controllers = $app['controllers_factory'];
-		$controllers->get('/', array($this, 'index'));
+		$controllers->get('/', array($this, 'home'));
 		return $controllers;
 	}
 
-	public function index(Application $app) {
-		return $app['twig']->render('index.twig');
+	public function home(Application $app) {
+		return $app['twig']->render('home.twig');
 	}
 
 }
