@@ -20,6 +20,6 @@ Each project/example has its own `README.md` containing instructions how to inst
 To install all dependencies for all examples in one go, use the one-liner below
 
 	$ cd ws2-sws-fiddles-silex
-	$ for D in `find . -mindepth 1 -maxdepth 1 -type d`; do cd $D && if [ -f composer.json ]; then composer install; fi && cd ..; done
+	$ find . -name composer.json -maxdepth 2 -execdir composer install \;
 
 A specific project/example may have additional installation steps (e.g. import and create the database). See the included `README.md` that comes with each project/example.
