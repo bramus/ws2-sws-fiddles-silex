@@ -11,9 +11,9 @@ CREATE TABLE users (
 	password VARCHAR(255)
 );
 
-INSERT INTO users VALUES (1, 'Bramus', 'Van Damme', 'bramus.vandamme@odisee.be', 'http://www.bram.us/', 'Vinkt, Belgium', '$1$ikr/pd3F$ioj.iteh09cuxcj/6LClx/');
-INSERT INTO users VALUES (2, 'Davy', 'De Winne', 'davy.dewinne@odisee.be', 'http://www.davydewinne.be/', 'Schellebelle, Belgium', '$1$Tmppgmf6$treNaN/WSBGJ3OuzrLOd.0');
-INSERT INTO users VALUES (3, 'Kevin', 'Picalausa', 'kevin.picalausa@odisee.be', NULL, 'Gent, Belgium', '$1$6s4sG.Ol$XNxeu/0kVxhkHQvNBHLpP0');
+INSERT INTO users VALUES (1, 'Bramus', 'Van Damme', 'bramus.vandamme@odisee.be', 'http://www.bram.us/', 'Vinkt, Belgium', '$2y$10$XywEoP9Hi1PNLRNiDkDIiupfhIvcXVNUUxffy26Es6MBfFdZBia6S');
+INSERT INTO users VALUES (2, 'Davy', 'De Winne', 'davy.dewinne@odisee.be', 'http://www.davydewinne.be/', 'Schellebelle, Belgium', '$2y$10$Sx/tY0TX4oLec0LdMs.qUOlrtz80A8AqL3vT.pfzdBAQzRXRtXORy');
+INSERT INTO users VALUES (3, 'Kevin', 'Picalausa', 'kevin.picalausa@odisee.be', NULL, 'Gent, Belgium', '$2y$10$YuXGZ9//Aoe7eyBX4QeqP.j0ctrytlBo3fd8y4cCz7PCNMAcyOWby');
 
 CREATE TABLE links (
 	id INTEGER PRIMARY KEY,
